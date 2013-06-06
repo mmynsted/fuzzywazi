@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pluggable type="theme">
+	<name>FuzzyWazi</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+        <author url="http://habariproject.org/">The Habari Community</author>
+        <author url="http://github.org/mmynsted">Mark Mynsted</author>
+	<url>http://habariproject.org</url>
+	<version>1.0</version>
+	<template_engine>rawphpengine</template_engine>
+        <description><![CDATA[This is a minimal Compass/SCSS version of wazi. The source is intended to look more like the original than to use SCSS and Compass tricks.]]></description>
+        <guid>6DEF2586-1565-4434-B1B3-E2A2E04AA7F2</guid>
+	
+	<areas>
+		<area name="nav" title="Navigation">
+			<description><![CDATA[The navigation area]]></description>
+		</area>
+		<area name="top_content" title="Top Content">
+			<description><![CDATA[Above the main content area, but below the header navigation]]></description>
+		</area>
+		<area name="sidebar" title="Sidebar">
+			<description><![CDATA[The sidebar area]]></description>
+		</area>
+		<area name="footer" title="Footer">
+			<description><![CDATA[The footer area]]></description>
+		</area>
+	</areas>
+</pluggable>

@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+}
+
+/* Page layout */
+// 960 -> 768 -> 480 -> 320
+
+@media only screen and (min-width: 961px) {
+	#wrapper {
+		width: 960px;
+	}
+	#posts {
+		@include column(9);
+	}
+	#sidebar {
+		@include column(3);
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	#wrapper {
+		width: 730px;
+	}
+	#posts {
+		@include column(6);
+	}
+	#sidebar {
+		@include column(3);
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#wrapper {
+		width: 480px;
+	}
+	#posts {
+		@include column(6);
+	}
+	#sidebar {
+		@include column(6);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#wrapper {
+		width: 320px;
+	}
+	#posts {
+		@include column(4);
+	}
+	#sidebar {
+		@include column(4);
+	}
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+#content {
+	//@include row;
+	width: 100%;
+}
+
+#content .content img {
+	max-width: 92%;
+	box-sizing: border-box;
+}
