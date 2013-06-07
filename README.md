@@ -16,5 +16,5 @@ The theme does not use javascript to convert the SASS to ``css`` but rather the 
 The stylesheet, in this case ``screen.css`` is compiled by a ``compass compile`` command, 
 or automatically when changes are made to the ``scss`` source files and a ``compass watch`` process is running.
 
-
+This was built from [Wazi](https://github.com/ringmaster/wazi) ``1.0``.
 

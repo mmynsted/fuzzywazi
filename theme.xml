@@ -5,7 +5,7 @@
         <author url="http://habariproject.org/">The Habari Community</author>
         <author url="http://github.org/mmynsted">Mark Mynsted</author>
 	<url>http://habariproject.org</url>
-	<version>1.0</version>
+	<version>0.1</version>
 	<template_engine>rawphpengine</template_engine>
         <description><![CDATA[This is a minimal Compass/SCSS version of wazi. The source is intended to look more like the original than to use SCSS and Compass tricks.]]></description>
         <guid>6DEF2586-1565-4434-B1B3-E2A2E04AA7F2</guid>
